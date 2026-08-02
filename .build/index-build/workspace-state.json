@@ -1,0 +1,81 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "chalk",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/mxcl/Chalk.git",
+          "name" : "Chalk"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "a7f58e47a08ca5a84f73acc4bcf6c2c19d990609",
+            "version" : "0.5.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Chalk"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "filecheck",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/llvm-swift/FileCheck.git",
+          "name" : "FileCheck"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "f7c5f1a9479b33a876a6f5632ca2b92a7ce4b667",
+            "version" : "0.2.6"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "FileCheck"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-argument-parser",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/apple/swift-argument-parser",
+          "name" : "swift-argument-parser"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "6a52f3251125d74daf04fcbd5e6f08a75d074382",
+            "version" : "1.8.2"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-argument-parser"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swiftcheck",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/typelift/SwiftCheck.git",
+          "name" : "SwiftCheck"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "077c096c3ddfc38db223ac8e525ad16ffb987138",
+            "version" : "0.12.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "SwiftCheck"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

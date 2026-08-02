@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Tarot}",
+            "name": "Debug TarotApp",
+            "target": "TarotApp",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug TarotApp"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Tarot}",
+            "name": "Release TarotApp",
+            "target": "TarotApp",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release TarotApp"
+        }
+    ]
+}

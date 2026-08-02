@@ -1,0 +1,3 @@
+module TarotUI {
+    header "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/TarotUI.build/include/TarotUI-Swift.h"
+}

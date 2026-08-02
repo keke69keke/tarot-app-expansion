@@ -1,0 +1,19 @@
+{
+  "": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/TarotNotifications.build/TarotNotifications.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/TarotNotifications.build/TarotNotifications.o",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/TarotNotifications.build/primary.swiftdeps"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotNotifications/LocalNotificationService.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/TarotNotifications.build/LocalNotificationService.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/TarotNotifications.build/LocalNotificationService~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/TarotNotifications.build/LocalNotificationService.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/TarotNotifications.build/LocalNotificationService.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotNotifications/Placeholder.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/TarotNotifications.build/Placeholder.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/TarotNotifications.build/Placeholder~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/TarotNotifications.build/Placeholder.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/TarotNotifications.build/Placeholder.dia"
+  }
+}

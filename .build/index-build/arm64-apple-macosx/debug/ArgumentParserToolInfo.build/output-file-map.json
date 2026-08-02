@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/primary.swiftdeps"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/index-build/checkouts/swift-argument-parser/Sources/ArgumentParserToolInfo/ToolInfo.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.dia"
+  }
+}

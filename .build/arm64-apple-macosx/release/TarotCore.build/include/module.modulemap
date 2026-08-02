@@ -1,0 +1,3 @@
+module TarotCore {
+    header "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/TarotCore.build/include/TarotCore-Swift.h"
+}

@@ -1,0 +1,4 @@
+module SwiftCheck {
+    header "/Users/gvstii/Documents/Tarot/.build/x86_64-apple-macosx/debug/SwiftCheck.build/SwiftCheck-Swift.h"
+    requires objc
+}

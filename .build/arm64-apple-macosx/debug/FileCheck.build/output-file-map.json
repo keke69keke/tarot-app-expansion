@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/primary.swiftdeps"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/FileCheck/Sources/FileCheck/CheckString.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/CheckString.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/CheckString.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/CheckString~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/CheckString.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/CheckString.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/FileCheck/Sources/FileCheck/Diagnostics.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/Diagnostics.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/Diagnostics.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/Diagnostics~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/Diagnostics.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/Diagnostics.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/FileCheck/Sources/FileCheck/EditDistance.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/EditDistance.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/EditDistance.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/EditDistance~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/EditDistance.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/EditDistance.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/FileCheck/Sources/FileCheck/FileCheck.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/FileCheck.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/FileCheck.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/FileCheck~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/FileCheck.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/FileCheck.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/FileCheck/Sources/FileCheck/Pattern.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/Pattern.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/Pattern.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/Pattern~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/Pattern.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/FileCheck.build/Pattern.dia"
+  }
+}

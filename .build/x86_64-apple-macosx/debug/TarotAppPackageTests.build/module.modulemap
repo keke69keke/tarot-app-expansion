@@ -1,0 +1,4 @@
+module TarotAppPackageTests {
+    header "/Users/gvstii/Documents/Tarot/.build/x86_64-apple-macosx/debug/TarotAppPackageTests.build/TarotAppPackageTests-Swift.h"
+    requires objc
+}

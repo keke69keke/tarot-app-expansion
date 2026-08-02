@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/TarotContent.build/primary.swiftdeps"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotContent/Placeholder.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/TarotContent.build/Placeholder.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/TarotContent.build/Placeholder.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/TarotContent.build/Placeholder~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/TarotContent.build/Placeholder.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/TarotContent.build/Placeholder.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/TarotContent.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/TarotContent.build/resource_bundle_accessor.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/TarotContent.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/TarotContent.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/TarotContent.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/debug/TarotContent.build/resource_bundle_accessor.dia"
+  }
+}

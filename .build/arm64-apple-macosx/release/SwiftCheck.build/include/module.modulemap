@@ -1,0 +1,3 @@
+module SwiftCheck {
+    header "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/include/SwiftCheck-Swift.h"
+}

@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/Chalk.build/Chalk.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/Chalk.build/Chalk.o",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/Chalk.build/primary.swiftdeps"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/Chalk/Chalk.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/Chalk.build/Chalk.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/Chalk.build/Chalk~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/Chalk.build/Chalk.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/Chalk.build/Chalk.dia"
+  }
+}

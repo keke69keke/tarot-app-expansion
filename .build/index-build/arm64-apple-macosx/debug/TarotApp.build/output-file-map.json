@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotApp.build/primary.swiftdeps"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotApp/TarotIPhoneApp.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotApp.build/TarotIPhoneApp.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotApp.build/TarotIPhoneApp.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotApp.build/TarotIPhoneApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotApp.build/TarotIPhoneApp.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotApp.build/TarotIPhoneApp.dia"
+  }
+}

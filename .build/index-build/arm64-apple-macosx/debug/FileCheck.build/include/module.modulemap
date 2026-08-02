@@ -1,0 +1,3 @@
+module FileCheck {
+    header "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/FileCheck.build/include/FileCheck-Swift.h"
+}

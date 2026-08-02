@@ -1,0 +1,4 @@
+module TarotUI {
+    header "/Users/gvstii/Documents/Tarot/.build/x86_64-apple-macosx/debug/TarotUI.build/TarotUI-Swift.h"
+    requires objc
+}

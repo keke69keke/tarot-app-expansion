@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/gvstii/Documents/Tarot/.build/x86_64-apple-macosx/debug/ArgumentParserToolInfo.build/master.swiftdeps"
+  },
+  "/Users/gvstii/Documents/Tarot/.build/checkouts/swift-argument-parser/Sources/ArgumentParserToolInfo/ToolInfo.swift": {
+    "dependencies": "/Users/gvstii/Documents/Tarot/.build/x86_64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.d",
+    "object": "/Users/gvstii/Documents/Tarot/.build/x86_64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.swift.o",
+    "swiftmodule": "/Users/gvstii/Documents/Tarot/.build/x86_64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/gvstii/Documents/Tarot/.build/x86_64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.swiftdeps",
+    "diagnostics": "/Users/gvstii/Documents/Tarot/.build/x86_64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.dia"
+  }
+}

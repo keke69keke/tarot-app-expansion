@@ -1,0 +1,14 @@
+/Users/gvstii/Documents/Tarot/TarotCore/Models/Card.swift
+/Users/gvstii/Documents/Tarot/TarotCore/Models/CardEnums.swift
+/Users/gvstii/Documents/Tarot/TarotCore/Models/Interpretation.swift
+/Users/gvstii/Documents/Tarot/TarotCore/Models/JournalEntry.swift
+/Users/gvstii/Documents/Tarot/TarotCore/Models/Spread.swift
+/Users/gvstii/Documents/Tarot/TarotCore/Models/TarotError.swift
+/Users/gvstii/Documents/Tarot/TarotCore/Models/UserSettings.swift
+/Users/gvstii/Documents/Tarot/TarotCore/Protocols/CardRepository.swift
+/Users/gvstii/Documents/Tarot/TarotCore/Protocols/DailyCardService.swift
+/Users/gvstii/Documents/Tarot/TarotCore/Protocols/JournalRepository.swift
+/Users/gvstii/Documents/Tarot/TarotCore/Protocols/NotificationService.swift
+/Users/gvstii/Documents/Tarot/TarotCore/Protocols/RandomizationEngine.swift
+/Users/gvstii/Documents/Tarot/TarotCore/Protocols/SettingsRepository.swift
+/Users/gvstii/Documents/Tarot/TarotCore/UseCases/TarotUseCases.swift

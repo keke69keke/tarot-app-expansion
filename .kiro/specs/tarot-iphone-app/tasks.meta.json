@@ -1,0 +1,857 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Configurar estructura del proyecto y modelos de dominio": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231814010
+      },
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231826053
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234427398
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234440975
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785235247021
+      }
+    ],
+    "2.1 Implementar el protocolo `RandomizationEngine` y `SystemRandomizationEngine` con Fisher-Yates shuffle y asignación de orientación invertida (probabilidad 0.30)": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231814186
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234427499
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785235249928
+      },
+      {
+        "executionId": "eb2c3a87-1859-46db-87de-abde2f3023fc",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785241704701
+      }
+    ],
+    "2.2 Escribir property test para la Propiedad 1: Selección sin repetición": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231814250
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234427646
+      },
+      {
+        "executionId": "eb2c3a87-1859-46db-87de-abde2f3023fc",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785241710672
+      }
+    ],
+    "2.3 Escribir property test para la Propiedad 2: Distribución estadística de cartas invertidas": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231814404
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234427726
+      },
+      {
+        "executionId": "eb2c3a87-1859-46db-87de-abde2f3023fc",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785241711891
+      }
+    ],
+    "2.4 Escribir property test para la Propiedad 10: Configuración de cartas invertidas afecta la selección": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231814485
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234427806
+      },
+      {
+        "executionId": "eb2c3a87-1859-46db-87de-abde2f3023fc",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785241712352
+      }
+    ],
+    "3.1 Crear el archivo `cards.json` en `TarotContent` con las 78 cartas del Tarot Rider-Waite, incluyendo nombre, número, palo, tipo de arcano, nombre de imagen, resumen (100-400 palabras) al derecho e invertido, al menos 3 palabras clave por orientación, e interpretaciones contextuales por posición": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231814554
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234427887
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785235251300
+      },
+      {
+        "executionId": "eb2c3a87-1859-46db-87de-abde2f3023fc",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785241705944
+      }
+    ],
+    "3.2 Implementar `BundleCardRepository` que cumpla el protocolo `CardRepository`: carga `cards.json` desde el bundle en memoria al inicio, implementa `allCards()`, `cards(in:)`, `search(query:)` y `interpretation(for:position:orientation:)` con fallback a interpretación general": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231814627
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234427961
+      },
+      {
+        "executionId": "eb2c3a87-1859-46db-87de-abde2f3023fc",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785241713670
+      }
+    ],
+    "3.3 Escribir property test para la Propiedad 4: Completitud de datos de cartas": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231814878
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234428046
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243364894
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243396523
+      }
+    ],
+    "3.4 Escribir property test para la Propiedad 5: Corrección de búsqueda de cartas": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231814989
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234428183
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243365161
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243397471
+      }
+    ],
+    "3.5 Escribir property test para la Propiedad 3: Interpretación siempre disponible (fallback)": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231815077
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234428253
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243365658
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243398145
+      }
+    ],
+    "4. Checkpoint — Asegurar que todos los tests del Motor de Aleatorización y del Repositorio de Cartas pasan": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231815148
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234428333
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243365984
+      }
+    ],
+    "5.1 Crear el modelo CoreData (`TarotJournal.xcdatamodeld`) con las entidades `JournalEntryCD` y `DrawnCardCD` según el esquema del diseño; configurar `NSPersistentCloudKitContainer` para sincronización automática con iCloud cuando esté disponible": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231815270
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234428504
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243366193
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243399345
+      }
+    ],
+    "5.2 Implementar `CoreDataJournalRepository` que cumpla el protocolo `JournalRepository`: `save(entry:)`, `fetchAll()` (orden descendente por fecha), `fetch(id:)` y `delete(id:)` con la estrategia de concurrencia `performBackgroundTask` para escrituras": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231815362
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234428577
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243366483
+      },
+      {
+        "executionId": "c7a764c3-71d7-4641-af60-3ab5dcb69309",
+        "chatSessionId": "sess_ed91fed6-fd33-4416-a5d3-bf211fdb2fd5",
+        "timestamp": 1785244428369
+      }
+    ],
+    "5.3 Escribir property test para la Propiedad 6: Persistencia del diario (round-trip)": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231815435
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234428651
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243366750
+      }
+    ],
+    "5.4 Escribir property test para la Propiedad 7: Ordenación cronológica del diario": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231815492
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234428716
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243367150
+      }
+    ],
+    "6.1 Implementar `DeterministicDailyCardService` que cumpla el protocolo `DailyCardService`: selección determinista usando hash de fecha (año + día del año) como semilla, persistencia del estado \"revelada\" en `UserDefaults`": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231815560
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234428786
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243367493
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243400429
+      }
+    ],
+    "6.2 Escribir property test para la Propiedad 8: Determinismo de la Carta del Día": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231815625
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234428863
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243368023
+      },
+      {
+        "executionId": "c7a764c3-71d7-4641-af60-3ab5dcb69309",
+        "chatSessionId": "sess_ed91fed6-fd33-4416-a5d3-bf211fdb2fd5",
+        "timestamp": 1785244429218
+      }
+    ],
+    "6.3 Implementar `LocalNotificationService` que cumpla el protocolo `NotificationService`: `requestPermission()`, `scheduleDailyNotification(hour:)` con `UNCalendarNotificationTrigger` y `repeats: true`, y `cancelDailyNotification()`; validar que `hour` esté en [6, 22]": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231815695
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234428935
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243368564
+      },
+      {
+        "executionId": "c7a764c3-71d7-4641-af60-3ab5dcb69309",
+        "chatSessionId": "sess_ed91fed6-fd33-4416-a5d3-bf211fdb2fd5",
+        "timestamp": 1785244430526
+      }
+    ],
+    "6.4 Escribir property test para la Propiedad 9: Rango válido de notificaciones diarias": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231815850
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234429009
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243369832
+      }
+    ],
+    "7.1 Implementar `UserDefaultsSettingsRepository` para persistir y leer `UserSettings` (idioma, diseño de dorso, deck activo, hora de notificación, `allowReversedCards`, `notificationsEnabled`)": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231815907
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234429162
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243370400
+      },
+      {
+        "executionId": "c7a764c3-71d7-4641-af60-3ab5dcb69309",
+        "chatSessionId": "sess_ed91fed6-fd33-4416-a5d3-bf211fdb2fd5",
+        "timestamp": 1785243663760
+      },
+      {
+        "executionId": "c7a764c3-71d7-4641-af60-3ab5dcb69309",
+        "chatSessionId": "sess_ed91fed6-fd33-4416-a5d3-bf211fdb2fd5",
+        "timestamp": 1785244423531
+      }
+    ],
+    "7.2 Escribir property test para la Propiedad 11: Persistencia de preferencias de usuario (round-trip)": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231815974
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234429231
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243371215
+      },
+      {
+        "executionId": "c7a764c3-71d7-4641-af60-3ab5dcb69309",
+        "chatSessionId": "sess_ed91fed6-fd33-4416-a5d3-bf211fdb2fd5",
+        "timestamp": 1785244431296
+      }
+    ],
+    "7.3 Implementar los casos de uso del dominio en `TarotCore`: `DrawCardsUseCase`, `SaveToJournalUseCase`, `DeleteJournalEntryUseCase`, `SearchCardsUseCase`, `GetDailyCardUseCase`, `RevealDailyCardUseCase`": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231816184
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234429316
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243371838
+      },
+      {
+        "executionId": "c7a764c3-71d7-4641-af60-3ab5dcb69309",
+        "chatSessionId": "sess_ed91fed6-fd33-4416-a5d3-bf211fdb2fd5",
+        "timestamp": 1785244432772
+      }
+    ],
+    "8. Checkpoint — Asegurar que todos los tests de servicios y repositorios pasan": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231816287
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234429480
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243372770
+      }
+    ],
+    "9.1 Implementar `AppContainer` que construya el grafo de dependencias completo (repositorios, servicios, casos de uso) y lo inyecte via `.environment` de SwiftUI": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231816353
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234429556
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243374056
+      }
+    ],
+    "9.2 Implementar `TiradaViewModel` con estados `idle`, `shuffling`, `revealed`; métodos para iniciar tirada, seleccionar carta y guardar en diario; exposición de `errorState: TarotError?`": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231816409
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234429637
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243375264
+      }
+    ],
+    "9.3 Implementar `BibliotecaViewModel` con búsqueda reactiva (< 500ms), preservación de `scrollPosition` y carga de todas las cartas agrupadas": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231816481
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234429720
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243376218
+      }
+    ],
+    "9.4 Implementar `DiarioViewModel` con carga de entradas ordenadas, selección de entrada y confirmación de borrado": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231816553
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234429795
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243376837
+      }
+    ],
+    "9.5 Implementar `CartaDelDiaViewModel` con estado `isRevealed` y lógica de notificación visual al primer acceso del día": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231816621
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234429871
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243377698
+      }
+    ],
+    "9.6 Implementar `SettingsViewModel` con aplicación inmediata de cambios a todos los ajustes": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231816684
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234429961
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243378264
+      }
+    ],
+    "9.7 Escribir property test para la Propiedad 12: Indicador de orientación en interpretaciones": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231816828
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234430041
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243378811
+      }
+    ],
+    "10.1 Implementar `ContentView` con `TabView` de navegación principal (Tirada, Biblioteca, Carta del Día, Diario, Configuración) y soporte de `Dynamic Type` y VoiceOver (`accessibilityLabel`) en todos los elementos interactivos": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231816970
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234430205
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243379408
+      }
+    ],
+    "10.2 Implementar `TiradaView` con la animación de barajado (1-3 segundos, `rotation3DEffect`), layout visual de cartas según `layoutCoordinate` de cada `SpreadPosition`, y navegación al detalle de carta al tocar": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231817040
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234430283
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243379994
+      }
+    ],
+    "10.3 Implementar `TiradaDetailView` (detalle de carta en tirada) mostrando imagen de alta resolución, interpretación completa con indicador visual de orientación (derecho/invertido) y fallback a placeholder si la imagen no está disponible": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231817105
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234430364
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243380528
+      }
+    ],
+    "10.4 Implementar `BibliotecaView` con lista agrupada (Arcanos Mayores + cuatro palos), buscador que filtra en tiempo real, preservación del scroll al regresar del detalle, y soporte landscape/portrait": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231817168
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234430551
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243381193
+      }
+    ],
+    "10.5 Implementar `CartaDelDiaView` con carta boca abajo y animación de flip al revelar (`rotation3DEffect`), notificación visual prominente en primer acceso del día, y soporte de modo oscuro/claro": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231817228
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234430633
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243381983
+      }
+    ],
+    "10.6 Implementar `DiarioView` con lista cronológica de entradas (fecha, tipo de tirada, preview de cartas), `DiarioEntryDetailView` con tirada completa y notas, y diálogo de confirmación antes de eliminar": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231817295
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234430715
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243382432
+      }
+    ],
+    "10.7 Implementar `SettingsView` con controles para: diseño de dorso (picker de 2+ opciones), deck activo, toggle de cartas invertidas, selector de idioma, y picker de hora de notificación restringido a [6, 22]": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231817359
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234430794
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243382969
+      }
+    ],
+    "11.1 Aplicar soporte completo de modo oscuro/claro usando `@Environment(\\.colorScheme)` y colores semánticos del sistema en todas las vistas; ajustar layout para orientación landscape con `GeometryReader` o `ViewThatFits` donde sea necesario": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231817425
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234430869
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243383328
+      }
+    ],
+    "11.2 Añadir `accessibilityLabel`, `accessibilityHint` y `accessibilityValue` a los componentes de carta, botones de tirada y controles de configuración; verificar compatibilidad con Dynamic Type aumentando el tamaño de fuente del sistema": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231817491
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234430956
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243383825
+      }
+    ],
+    "11.3 Implementar carga diferida de imágenes con versiones de baja resolución como fallback cuando la memoria disponible sea insuficiente": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231817632
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234431033
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243384253
+      }
+    ],
+    "12.1 Escribir tests de integración de CoreData (`CoreDataPersistenceTests`) verificando que guardar y recuperar entradas del diario funciona end-to-end con una base de datos in-memory": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231817712
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234431182
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243384750
+      }
+    ],
+    "12.2 Escribir smoke tests de catálogo de cartas (`CardCatalogSmokeTests` y `BundleContentSmokeTests`) verificando que el bundle contiene las 78 cartas con imágenes y que todas las tiradas predefinidas tienen el número correcto de posiciones": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231817865
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234431255
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243385331
+      }
+    ],
+    "12.3 Escribir tests de snapshot para modo oscuro (`DarkModeSnapshots`) y orientación landscape (`LandscapeSnapshots`) en las vistas principales": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231817931
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234431427
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243385788
+      }
+    ],
+    "12.4 Escribir tests de ejemplo (XCTest) para flujos críticos: confirmación de borrado en el diario, preservación de scroll en la biblioteca, carta del día boca abajo antes de revelar, y propagación inmediata de cambios en Settings": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231818011
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234431497
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243386319
+      }
+    ],
+    "13. Checkpoint final — Asegurar que todos los tests pasan": [
+      {
+        "executionId": "ff94e935-2fa6-4fa8-8bd1-fa6d523bb7cb",
+        "chatSessionId": "sess_9266aec6-631b-4c5b-8d5f-ae5fb6376d32",
+        "timestamp": 1785231818080
+      },
+      {
+        "executionId": "f7767c0b-f51e-4200-8a01-f916a5613d37",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785234431564
+      },
+      {
+        "executionId": "e58b823e-e26a-4b96-ae1a-57bab74272f2",
+        "chatSessionId": "sess_a350f04a-c873-4c2b-a2c1-2f289b449985",
+        "timestamp": 1785243387038
+      }
+    ],
+    "2. Implementar el Motor de Aleatorización": [
+      {
+        "executionId": "eb2c3a87-1859-46db-87de-abde2f3023fc",
+        "chatSessionId": "sess_08b7ac3f-7f06-4b19-b32d-6bfaa6bda72b",
+        "timestamp": 1785241712498
+      }
+    ]
+  }
+}

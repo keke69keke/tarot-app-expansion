@@ -1,0 +1,97 @@
+{
+  "": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/SwiftCheck.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/SwiftCheck.o",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/primary.swiftdeps"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/Arbitrary.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Arbitrary.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Arbitrary~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Arbitrary.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Arbitrary.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/Cartesian.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Cartesian.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Cartesian~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Cartesian.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Cartesian.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/Check.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Check.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Check~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Check.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Check.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/CoArbitrary.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/CoArbitrary.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/CoArbitrary~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/CoArbitrary.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/CoArbitrary.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/Compose.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Compose.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Compose~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Compose.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Compose.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/Gen.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Gen.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Gen~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Gen.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Gen.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/Lattice.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Lattice.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Lattice~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Lattice.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Lattice.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/Modifiers.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Modifiers.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Modifiers~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Modifiers.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Modifiers.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/Property.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Property.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Property~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Property.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Property.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/Random.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Random.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Random~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Random.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Random.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/Rose.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Rose.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Rose~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Rose.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Rose.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/State.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/State.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/State~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/State.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/State.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/Test.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Test.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Test~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Test.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Test.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/Testable.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Testable.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Testable~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Testable.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/Testable.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/.build/checkouts/SwiftCheck/Sources/SwiftCheck/WitnessedArbitrary.swift": {
+    "object": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/WitnessedArbitrary.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/WitnessedArbitrary~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/WitnessedArbitrary.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/arm64-apple-macosx/release/SwiftCheck.build/WitnessedArbitrary.dia"
+  }
+}

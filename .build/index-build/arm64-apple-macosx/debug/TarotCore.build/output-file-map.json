@@ -1,0 +1,131 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/primary.swiftdeps"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Implementations/CardRepositoryImpl.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardRepositoryImpl.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardRepositoryImpl.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardRepositoryImpl~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardRepositoryImpl.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardRepositoryImpl.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Models/Card.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Card.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Card.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Card~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Card.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Card.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Models/CardEnums.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardEnums.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardEnums.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardEnums~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardEnums.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardEnums.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Models/DrawnCard.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DrawnCard.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DrawnCard.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DrawnCard~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DrawnCard.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DrawnCard.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Models/Interpretation.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Interpretation.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Interpretation.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Interpretation~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Interpretation.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Interpretation.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Models/JournalEntry.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/JournalEntry.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/JournalEntry.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/JournalEntry~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/JournalEntry.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/JournalEntry.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Models/Spread.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Spread.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Spread.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Spread~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Spread.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/Spread.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Models/TarotError.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/TarotError.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/TarotError.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/TarotError~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/TarotError.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/TarotError.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Models/UserSettings.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/UserSettings.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/UserSettings.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/UserSettings~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/UserSettings.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/UserSettings.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Protocols/CardRepository.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardRepository.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardRepository.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardRepository~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardRepository.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/CardRepository.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Protocols/DailyCardService.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DailyCardService.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DailyCardService.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DailyCardService~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DailyCardService.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DailyCardService.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Protocols/JournalRepository.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/JournalRepository.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/JournalRepository.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/JournalRepository~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/JournalRepository.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/JournalRepository.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Protocols/NotificationService.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/NotificationService.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/NotificationService.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/NotificationService~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/NotificationService.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/NotificationService.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Protocols/RandomizationEngine.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/RandomizationEngine.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/RandomizationEngine.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/RandomizationEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/RandomizationEngine.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/RandomizationEngine.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Protocols/SettingsRepository.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/SettingsRepository.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/SettingsRepository.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/SettingsRepository~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/SettingsRepository.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/SettingsRepository.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/Services/SpreadSynthesizer.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/SpreadSynthesizer.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/SpreadSynthesizer.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/SpreadSynthesizer~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/SpreadSynthesizer.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/SpreadSynthesizer.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/UseCases/DrawCardsUseCase.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DrawCardsUseCase.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DrawCardsUseCase.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DrawCardsUseCase~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DrawCardsUseCase.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/DrawCardsUseCase.dia"
+  },
+  "/Users/nicole/Downloads/Tarot/TarotCore/UseCases/TarotUseCases.swift": {
+    "dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/TarotUseCases.d",
+    "object": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/TarotUseCases.swift.o",
+    "swiftmodule": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/TarotUseCases~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/TarotUseCases.swiftdeps",
+    "diagnostics": "/Users/nicole/Downloads/Tarot/.build/index-build/arm64-apple-macosx/debug/TarotCore.build/TarotUseCases.dia"
+  }
+}
