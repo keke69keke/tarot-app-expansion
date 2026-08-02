@@ -1,4 +1,0 @@
-module Chalk {
-    header "/Users/gvstii/Documents/Tarot/.build/x86_64-apple-macosx/debug/Chalk.build/Chalk-Swift.h"
-    requires objc
-}

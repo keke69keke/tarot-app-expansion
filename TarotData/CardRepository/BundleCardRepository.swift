@@ -152,6 +152,19 @@ private struct CardDTO: Codable {
     let number: String?
     let suit: String?
     let bookContent: String?
+    let astrology: String?
+    let kabbalah: String?
+    let numerology: String?
+    let element: String?
+    let lightShadow: String?
+    
+    // Phase 3 Extensions
+    let yesNo: String?
+    let chakras: String?
+    let crystals: String?
+    let affirmation: String?
+    let mythology: String?
+    let zodiacalDecan: String?
     
     /// Converts this DTO to a domain Card model
     func toDomain() -> Card {
@@ -167,7 +180,18 @@ private struct CardDTO: Codable {
             imageName: imageName,
             uprightMeaning: upright.toDomain(),
             reversedMeaning: reversed.toDomain(),
-            bookContent: bookContent
+            bookContent: bookContent,
+            astrology: astrology,
+            kabbalah: kabbalah,
+            numerology: numerology,
+            element: element,
+            lightShadow: lightShadow,
+            yesNo: yesNo,
+            chakras: chakras,
+            crystals: crystals,
+            affirmation: affirmation,
+            mythology: mythology,
+            zodiacalDecan: zodiacalDecan
         )
     }
 }

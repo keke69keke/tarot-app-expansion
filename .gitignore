@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Xcode
+*.xcuserstate
+**/xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Temporary scratch files
+scratch/
+
+test_bundle_repo.swift
