@@ -27,6 +27,9 @@ struct RiderReferenceView: View {
                     } label: {
                         referenceRow(for: card)
                     }
+                    .simultaneousGesture(TapGesture().onEnded {
+                        TarotAudioService.shared.playCardSelect()
+                    })
                     .listRowBackground(Color.clear)
                     .listRowSeparator(.hidden)
                 }
@@ -125,6 +128,66 @@ struct RiderReferenceView: View {
     }
 }
 
+/// Esoteric / expanded reference panel with 8 collapsible sections
+private struct EsotericReferencePanel: View {
+    let card: Card
+    let interpretation: Interpretation
+
+    @State private var expanded: [Bool] = Array(repeating: false, count: 8)
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("Ficha Esotérica").font(.headline)
+            VStack(spacing: 6) {
+                disclosure(0, title: "📜 Descripción clásica", content: card.bookContent ?? interpretation.summary)
+                disclosure(1, title: "🔤 Letra Hebrea", content: card.kabbalah ?? "—")
+                disclosure(2, title: "🌳 Sendero del Árbol de la Vida", content: card.numerology ?? card.kabbalah ?? "No disponible")
+                disclosure(3, title: "🪐 Astrología", content: astrologyText())
+                disclosure(4, title: "⚗️ Principio Alquímico", content: card.element ?? card.numerology ?? "—")
+                disclosure(5, title: "🧘 Chakra Asociado", content: card.chakras ?? "—")
+                disclosure(6, title: "🎴 Respuesta Sí / No / Tal vez", content: card.yesNo ?? "—")
+                disclosure(7, title: "📿 Meditación + Afirmación", content: meditationText())
+            }
+            .padding()
+            .background(Color.tarotPanel.opacity(0.92))
+            .cornerRadius(14)
+        }
+        .padding(.top)
+    }
+
+    private func disclosure(_ idx: Int, title: String, content: String) -> some View {
+        DisclosureGroup(isExpanded: Binding(get: { expanded[idx] }, set: { expanded[idx] = $0 })) {
+            Text(content)
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+                .padding(.top, 6)
+                .fixedSize(horizontal: false, vertical: true)
+        } label: {
+            HStack {
+                Text(title).bold().font(.subheadline)
+                Spacer()
+            }
+        }
+        .accentColor(Color.tarotGold)
+        .padding(.vertical, 6)
+    }
+
+    private func astrologyText() -> String {
+        var parts: [String] = []
+        if let astro = card.astrology { parts.append("Signo: \(astro)") }
+        if let decan = card.zodiacalDecan { parts.append("Decanato: \(decan)") }
+        return parts.isEmpty ? "—" : parts.joined(separator: " · ")
+    }
+
+    private func meditationText() -> String {
+        var s = ""
+        if let a = card.affirmation { s += "Afirmación: " + a }
+        else if let ls = card.lightShadow { s += ls }
+        if s.isEmpty { s = "—" }
+        return s
+    }
+}
+
 struct ReferenceCardView: View {
     let card: Card
     let orientation: CardOrientation
@@ -189,9 +252,12 @@ struct ReferenceCardView: View {
 
                 BookInfoGrid(card: card, interpretation: currentInterpretation)
                 BookHighlightsView(interpretation: currentInterpretation)
- 
+
                 CardBookSection(title: orientation == .upright ? "Al derecho" : "Invertida", interpretation: currentInterpretation)
- 
+
+                // Esoteric detail panel with 8 collapsible sections
+                EsotericReferencePanel(card: card, interpretation: currentInterpretation)
+
                 if !currentInterpretation.keywords.isEmpty {
                     Divider()
                     Text("Palabras clave relevantes").font(.headline)
@@ -246,6 +312,100 @@ private struct BookInfoGrid: View {
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
+
+            // Encyclopedic Data
+            if card.astrology != nil || card.kabbalah != nil || card.element != nil || card.yesNo != nil || card.chakras != nil {
+                Divider()
+                Text("Simbología y Correspondencias").font(.subheadline).bold()
+
+                if let element = card.element {
+                    HStack {
+                        Text("Elemento:").bold().font(.caption)
+                        Spacer()
+                        Text(element).font(.caption).foregroundStyle(.secondary)
+                    }
+                }
+
+                if let astrology = card.astrology {
+                    HStack {
+                        Text("Astrología:").bold().font(.caption)
+                        Spacer()
+                        Text(astrology).font(.caption).foregroundStyle(.secondary)
+                    }
+                }
+
+                if let numerology = card.numerology {
+                    HStack {
+                        Text("Numerología:").bold().font(.caption)
+                        Spacer()
+                        Text(numerology).font(.caption).foregroundStyle(.secondary)
+                    }
+                }
+
+                if let kabbalah = card.kabbalah {
+                    HStack(alignment: .top) {
+                        Text("Cábala:").bold().font(.caption)
+                        Spacer()
+                        Text(kabbalah).font(.caption).foregroundStyle(.secondary)
+                            .multilineTextAlignment(.trailing)
+                    }
+                }
+
+                if let lightShadow = card.lightShadow {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Luz y Sombra:").bold().font(.caption)
+                        Text(lightShadow).font(.caption).foregroundStyle(.secondary)
+                    }
+                }
+
+                if let yesNo = card.yesNo {
+                    HStack(alignment: .top) {
+                        Text("Respuesta (Sí/No):").bold().font(.caption)
+                        Spacer()
+                        Text(yesNo).font(.caption).foregroundStyle(.secondary)
+                    }
+                }
+
+                if let chakras = card.chakras {
+                    HStack(alignment: .top) {
+                        Text("Chakras:").bold().font(.caption)
+                        Spacer()
+                        Text(chakras).font(.caption).foregroundStyle(.secondary)
+                    }
+                }
+
+                if let crystals = card.crystals {
+                    HStack(alignment: .top) {
+                        Text("Cristales:").bold().font(.caption)
+                        Spacer()
+                        Text(crystals).font(.caption).foregroundStyle(.secondary)
+                    }
+                }
+
+                if let mythology = card.mythology {
+                    HStack(alignment: .top) {
+                        Text("Mitología:").bold().font(.caption)
+                        Spacer()
+                        Text(mythology).font(.caption).foregroundStyle(.secondary)
+                    }
+                }
+
+                if let decan = card.zodiacalDecan {
+                    HStack(alignment: .top) {
+                        Text("Decanato:").bold().font(.caption)
+                        Spacer()
+                        Text(decan).font(.caption).foregroundStyle(.secondary)
+                    }
+                }
+
+                if let affirmation = card.affirmation {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Afirmación:").bold().font(.caption)
+                        Text(affirmation).font(.caption).italic().foregroundStyle(.secondary)
+                    }
+                }
+            }
+
             if !interpretation.aspects.isEmpty {
                 Divider()
                 Text("Aspectos clave").font(.subheadline).bold()

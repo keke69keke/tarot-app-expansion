@@ -30,6 +30,31 @@ public struct Card: Identifiable, Hashable {
 
     /// Content extracted from the Rider-Waite Guía Definitiva book via OCR (Fiebig & Bürger).
     public let bookContent: String?
+    
+    // MARK: - Encyclopedic Data
+    
+    /// Astrological correspondence (e.g., "Aries", "Uranus").
+    public let astrology: String?
+    
+    /// Kabbalistic path or association on the Tree of Life.
+    public let kabbalah: String?
+    
+    /// Numerological significance.
+    public let numerology: String?
+    
+    /// Associated element (Fire, Water, Air, Earth).
+    public let element: String?
+    
+    /// Deep dive into the light vs shadow aspects of the card.
+    public let lightShadow: String?
+    
+    // Phase 3 Extensions
+    public let yesNo: String?
+    public let chakras: String?
+    public let crystals: String?
+    public let affirmation: String?
+    public let mythology: String?
+    public let zodiacalDecan: String?
 
     public init(
         id: Int,
@@ -40,7 +65,18 @@ public struct Card: Identifiable, Hashable {
         imageName: String,
         uprightMeaning: Interpretation,
         reversedMeaning: Interpretation,
-        bookContent: String? = nil
+        bookContent: String? = nil,
+        astrology: String? = nil,
+        kabbalah: String? = nil,
+        numerology: String? = nil,
+        element: String? = nil,
+        lightShadow: String? = nil,
+        yesNo: String? = nil,
+        chakras: String? = nil,
+        crystals: String? = nil,
+        affirmation: String? = nil,
+        mythology: String? = nil,
+        zodiacalDecan: String? = nil
     ) {
         self.id = id
         self.name = name
@@ -51,6 +87,17 @@ public struct Card: Identifiable, Hashable {
         self.uprightMeaning = uprightMeaning
         self.reversedMeaning = reversedMeaning
         self.bookContent = bookContent
+        self.astrology = astrology
+        self.kabbalah = kabbalah
+        self.numerology = numerology
+        self.element = element
+        self.lightShadow = lightShadow
+        self.yesNo = yesNo
+        self.chakras = chakras
+        self.crystals = crystals
+        self.affirmation = affirmation
+        self.mythology = mythology
+        self.zodiacalDecan = zodiacalDecan
     }
 
     // MARK: Hashable

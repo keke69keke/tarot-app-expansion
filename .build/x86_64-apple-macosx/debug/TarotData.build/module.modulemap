@@ -1,4 +1,0 @@
-module TarotData {
-    header "/Users/gvstii/Documents/Tarot/.build/x86_64-apple-macosx/debug/TarotData.build/TarotData-Swift.h"
-    requires objc
-}

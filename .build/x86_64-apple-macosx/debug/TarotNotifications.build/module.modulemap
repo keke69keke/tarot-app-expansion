@@ -1,4 +1,0 @@
-module TarotNotifications {
-    header "/Users/gvstii/Documents/Tarot/.build/x86_64-apple-macosx/debug/TarotNotifications.build/TarotNotifications-Swift.h"
-    requires objc
-}

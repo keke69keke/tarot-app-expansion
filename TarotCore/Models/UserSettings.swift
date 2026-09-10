@@ -98,13 +98,33 @@ public enum Language: String, CaseIterable, Codable {
 
 /// Available card-back artwork options (Requirement 6.1).
 public enum CardBackDesign: String, CaseIterable, Codable {
-    case classic   = "classic"
-    case mystical  = "mystical"
+    case classic      = "classic"
+    case mystical     = "mystical"
+    case celestial    = "celestial"
+    case floral       = "floral"
+    case alchemical   = "alchemical"
+    case darkMoon     = "darkMoon"
 
     public var displayName: String {
         switch self {
-        case .classic: return "Clásico"
-        case .mystical: return "Místico"
+        case .classic:    return "Clásico"
+        case .mystical:   return "Místico"
+        case .celestial:  return "Celestial"
+        case .floral:     return "Floral Art Nouveau"
+        case .alchemical: return "Alquímico"
+        case .darkMoon:   return "Luna Oscura"
+        }
+    }
+
+    /// Accent color used for UI indicators and glows.
+    public var accentColor: (r: Double, g: Double, b: Double) {
+        switch self {
+        case .classic:    return (0.85, 0.72, 0.38)   // warm gold
+        case .mystical:   return (0.72, 0.58, 0.92)   // purple
+        case .celestial:  return (0.40, 0.72, 1.00)   // electric blue
+        case .floral:     return (0.72, 0.90, 0.58)   // sage green
+        case .alchemical: return (0.95, 0.75, 0.30)   // amber
+        case .darkMoon:   return (0.65, 0.65, 0.75)   // silver
         }
     }
 }
@@ -113,17 +133,68 @@ public enum CardBackDesign: String, CaseIterable, Codable {
 
 /// Available card-front artwork decks (Requirement 6.2).
 public enum DeckType: String, CaseIterable, Codable {
+    // Original decks
     case riderWaite = "riderWaite"
     case thoth      = "thoth"
     case helloKitty = "helloKitty"
+    // New decks
+    case marseille  = "marseille"
+    case osho       = "osho"
+    case darkSide   = "darkSide"
+    case celestial  = "celestial"
+    case botanical  = "botanical"
 
     public var displayName: String {
         switch self {
-        case .riderWaite: return "Rider-Waite"
-        case .thoth: return "Thoth"
-        case .helloKitty: return "Hello Kitty (Kawaii)"
+        case .riderWaite: return "Rider-Waite Clásico"
+        case .thoth:      return "Thoth Crowley"
+        case .helloKitty: return "Hello Kitty Kawaii"
+        case .marseille:  return "Tarot de Marsella"
+        case .osho:       return "Osho Zen"
+        case .darkSide:   return "Dark Side (Oscuro)"
+        case .celestial:  return "Tarot Celestial"
+        case .botanical:  return "Tarot Botánico"
         }
     }
+
+    public var description: String {
+        switch self {
+        case .riderWaite: return "El mazo más popular del siglo XX, con ilustraciones simbólicas de Pamela Colman Smith."
+        case .thoth:      return "Diseñado por Aleister Crowley y Lady Frieda Harris. Geometría proyectiva sagrada."
+        case .helloKitty: return "Una versión kawaii y adorable del Tarot para lecturas ligeras y divertidas."
+        case .marseille:  return "El mazo europeo más antiguo (s. XVII), origen del Tarot moderno. Arte medieval."
+        case .osho:       return "Basado en las enseñanzas de Osho. Acuarelas vibrantes y espiritualidad Zen."
+        case .darkSide:   return "Estética oscura y subversiva. Para quienes trabajan con la sombra y el inconsciente."
+        case .celestial:  return "Inspirado en constelaciones y cosmología. Cartas que reflejan el cosmos interior."
+        case .botanical:  return "Ilustraciones botánicas de plantas sagradas y la sabiduría de la naturaleza."
+        }
+    }
+
+    /// Texture style identifier used by CardTextureOverlayView
+    public var textureStyle: DeckTextureStyle {
+        switch self {
+        case .riderWaite: return .agedParchment
+        case .thoth:      return .sacredGeometry
+        case .helloKitty: return .softPastel
+        case .marseille:  return .medievalEmbroidery
+        case .osho:       return .watercolor
+        case .darkSide:   return .grunge
+        case .celestial:  return .starfield
+        case .botanical:  return .leafVeins
+        }
+    }
+}
+
+/// Visual texture style for card overlays.
+public enum DeckTextureStyle {
+    case agedParchment
+    case sacredGeometry
+    case softPastel
+    case medievalEmbroidery
+    case watercolor
+    case grunge
+    case starfield
+    case leafVeins
 }
 
 // MARK: - AppTab

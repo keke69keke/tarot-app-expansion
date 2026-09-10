@@ -1,4 +1,0 @@
-module ArgumentParser {
-    header "/Users/gvstii/Documents/Tarot/.build/x86_64-apple-macosx/debug/ArgumentParser-tool.build/ArgumentParser-Swift.h"
-    requires objc
-}
